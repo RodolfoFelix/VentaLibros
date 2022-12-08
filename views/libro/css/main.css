@@ -3,6 +3,12 @@
  height: 100%;    
  color: white;
  float: right;
+ border-radius: 25px;
+}
+
+.img{
+    margin-top:15px;
+    width:100px;
 }
 
 .btnSBCarrito{

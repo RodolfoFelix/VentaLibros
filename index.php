@@ -1,6 +1,6 @@
 <?php include("includes/header.php")?>
     <div class="text-center" id= "header">
-        <h3>Bienvenidos a NOMBREPROYECTO</h3>
+        <h3>Bienvenidos a BookStore</h3>
     </div>
     <br>
     <br>
@@ -17,7 +17,8 @@
             <input class="form-control" type="password" name="password">
             <br>
             <br>
-            <input class="btn btn-primary" type="submit" value="Login" name="login_sent">
+            <input class="btn btn-success" type="submit" value="Login" name="login_sent">
+            <a href="views/usuario/form.php?fromLogin=1" class="btn btn-primary">Registrarme</a>
             </form>
         </div>
         <div class="col-md-4"></div>

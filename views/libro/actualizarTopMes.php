@@ -11,7 +11,9 @@
         $genero = $libro["genero"];
         $noventas = $libro["noventas"];
         $idlibro = $libro["id"];
-        $sqlInsert = "INSERT INTO topmes(nombre,autor,sinopsis,genero,noventas,idlibro) VALUES ('".$nombre."','".$autor."','".$sinopsis."','".$genero."','".$noventas."','".$idlibro."')";
+        $imagen = $libro["imagen"];
+        $sqlInsert = "INSERT INTO topmes(nombre,autor,sinopsis,genero,noventas,idlibro,imagen) 
+        VALUES ('".$nombre."','".$autor."','".$sinopsis."','".$genero."','".$noventas."','".$idlibro."','".$imagen."')";
         mysqli_query($conn_localhost, $sqlInsert) or trigger_error("Login query failed");
     endwhile;
 
