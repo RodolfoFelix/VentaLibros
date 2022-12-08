@@ -1,0 +1,18 @@
+.btnSB{    
+ width:  59%;
+ height: 100%;    
+ color: white;
+ float: right;
+}
+
+.btnSBCarrito{
+    background-color: darkorange;
+}
+
+.btnSBTop{
+    background-color: blueviolet;
+}
+
+.libro{
+    margin-bottom: 30px;
+}
